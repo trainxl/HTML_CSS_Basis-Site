@@ -1,0 +1,171 @@
+html {
+	background: #Ffe3bc;
+        height: 101%;
+}
+
+body {
+	font-family: "Lucida Grande", Arial, sans-serif;
+	padding: 50px;
+	margin: 50px auto 50px auto;
+ 	background: #ffffec url('img/background_.jpg') top right no-repeat;
+	width: 500px;
+        -moz-border-radius: 8px;
+        -webkit-border-radius: 8px;
+        border: 1px solid #FFf286;
+} 
+
+h1 {
+	background:none repeat scroll 0 0 #FFf286;
+	margin-bottom:0;
+	padding:20px 10px;
+	color: white;
+        border: 1px solid #B12D06;
+        -moz-border-radius: 8px;
+        -webkit-border-radius: 8px;
+}
+
+h1 a {
+    text-decoration: none;
+    color: #F1760E;
+    outline: none;
+}
+
+h2 {
+    color: #B12D06
+}
+
+p {
+    margin-top: 0px;
+    color: #666;
+}
+
+
+.clearer {
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+
+#navcontainer ul
+{
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  padding-left: 5px;
+  margin-left: 0;
+  background-color: #B12D06;
+  color: White;
+  float: left;
+  width: 495px;
+  font-family: arial, helvetica, sans-serif;
+}
+
+
+
+#navcontainer ul li {
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+    display: inline;
+}
+
+#navcontainer ul li a
+{
+  padding: 0.2em 1em;
+  background-color: #B12D06 ;
+  color: White;
+  text-decoration: none;
+  float: left;
+  border-right: 1px solid #fff;
+}
+
+#navcontainer ul li a:hover,
+#navcontainer ul li.active a
+{
+  background-color: #F1760E;
+  color: #fff;
+}
+
+/* Kontaktformular */
+form#kontaktform dt {
+    clear: left;
+    color: #B12D06;
+}
+
+form#kontaktform dd {
+    margin-bottom: 12px;
+}
+
+form#kontaktform label {
+    float: left;
+    margin: 5px;
+    padding-right: 10px;
+    width: 140px;
+    display: block;
+    text-align: right;
+}
+
+form#kontaktform input {
+    border: 1px solid #aaa;
+    -moz-border-radius: 4px;
+    height: 20px;
+    width: 300px;
+    padding: 5px;
+    font-size: 14px;
+    color: white;
+    background: #F1760E;
+}
+
+form#kontaktform input:focus,
+form#kontaktform textarea:focus{
+    background-color: #B12D06;
+}
+
+form#kontaktform textarea {
+    border: 1px solid #aaa;
+    background: #F1760E;
+    -moz-border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+    height: 300px;
+    color: white;
+    font-family: "Lucida Grande", Arial, sans-serif;
+}
+
+form#kontaktform span.erforderlich {
+    color: red;
+}
+
+form#kontaktform input[type=submit] {
+    height: 30px;
+    background: #FFE829;
+    color: #B12D06;
+    width: 312px;
+}
+
+/* Bilder */
+
+img.align-left {
+    float: left;
+    margin: 0 15px 15px 0;
+}
+
+/* Angebot */
+
+table#angebot {
+    border-collapse: collapse;
+}
+
+table#angebot th {
+    text-align: left;
+}
+
+table#angebot .first-column {
+    width: 150px;
+}
+
+table#angebot .second-column {
+    width: 150px;
+}
+
+table#angebot .third-column {
+    width: 100px;
+}
